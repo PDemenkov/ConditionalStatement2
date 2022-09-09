@@ -42,11 +42,11 @@ public class Main {
         }
 
         System.out.println("Задание 5");
-        int monthNumber =12;
+        int monthNumber =5;
         switch (monthNumber){
             case 1:
             case 2:
-            case 13:
+            case 12:
             System.out.println("Сезон зима");
             break;
             case 3:
