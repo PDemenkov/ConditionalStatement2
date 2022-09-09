@@ -61,7 +61,7 @@ public class Main {
             case 9:
             case 10:
             case 11:
-                System.out.println("Сезон лето");
+                System.out.println("Сезон Осень");
                 break;
             default:
                 System.out.println("Такого месяца не существует");
