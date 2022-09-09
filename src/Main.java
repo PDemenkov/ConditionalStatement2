@@ -58,6 +58,7 @@ public class Main {
             case 7:
             case 8:
                 System.out.println("Сезон лето");
+                break;
             case 9:
             case 10:
             case 11:
