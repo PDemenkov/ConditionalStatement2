@@ -17,8 +17,10 @@ public class Main {
             System.out.println("Установите облегченную версию для Андроид");
         } else if (clientDeviceYear < 2015 && clientOS1 == 0) {
             System.out.println("Установите облегченную версию для iOS");
-        } else {
-            System.out.println("Установите приложение");
+        } else if (clientDeviceYear >= 2015 && clientOS1 == 0) {
+            System.out.println("Установите приложение для Андроид");
+        } else if (clientDeviceYear >= 2015 && clientOS1 == 1) {
+            System.out.println("Установите приложение для iOS");
         }
 
         System.out.println("Задание 3");
@@ -26,8 +28,8 @@ public class Main {
         boolean leapYear = ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0));
         if (leapYear) {
             System.out.println(year + " Год является высокосным");
-        }else
-            System.out.println(year + " Не является высокосным");
+        }else {
+            System.out.println(year + " Не является высокосным");}
 
         System.out.println("Задание 4");
         int deliveryDistance = 95;
